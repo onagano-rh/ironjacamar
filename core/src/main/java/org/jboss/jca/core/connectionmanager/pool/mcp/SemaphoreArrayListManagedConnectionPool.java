@@ -164,6 +164,8 @@ public class SemaphoreArrayListManagedConnectionPool implements ManagedConnectio
          PoolFiller.fillPool(this);
       }
 
+      log.info("Case 01022202 debug patch enabled.");
+
       reenable();
    }
 
